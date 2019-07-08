@@ -23,19 +23,29 @@
         <nav class="templateux-menu js-templateux-menu" role="navigation">
           <ul class="list-unstyled">
             <li class="d-md-none d-block active">
-              <a href="{{ url('/') }}" class="animsition-link">Home</a>
+              <a href="{{ url('/') }}" class="animsition-link">
+                Home
+              </a>
             </li>
             <li>
-              <a href="{{ url('/work') }}" class="animsition-link">Work</a>
+              <a href="{{ url('/portfolio') }}" class="animsition-link">
+                Portfolio
+              </a>
             </li>
             <li>
-              <a href="{{ url('/about-us') }}" class="animsition-link">About</a>
+              <a href="{{ url('/about-us') }}" class="animsition-link">
+                About us
+              </a>
             </li>
             <li>
-              <a href="{{ url('/blog') }}" class="animsition-link">Blog</a>
+              <a href="{{ url('/blog') }}" class="animsition-link">
+                Blog
+              </a>
             </li>
             <li>
-              <a href="{{ url('/contact') }}" class="animsition-link">Contact</a>
+              <a href="{{ url('/contact') }}" class="animsition-link">
+                Contact
+              </a>
             </li>
           </ul>
         </nav>
